@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_favorites">
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.app.mob202lab4.ui.favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/navigation_schedules"
+        android:name="com.app.mob202lab4.ui.schedules.SchedulesFragment"
+        android:label="@string/title_schedules"
+        tools:layout="@layout/fragment_schedules" />
+
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="com.app.mob202lab4.ui.music.MusicFragment"
+        android:label="@string/title_music"
+        tools:layout="@layout/fragment_music" />
+</navigation>

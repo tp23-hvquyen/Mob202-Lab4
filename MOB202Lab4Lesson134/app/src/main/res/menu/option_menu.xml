@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/lab401"
+        android:title="Lab 401"
+         app:showAsAction="never"></item>
+    <item
+        android:id="@+id/lab402"
+        android:title="Lab 402"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/lab403"
+        android:title="Lab 403"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/lab404"
+        android:title="Lab 404"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/lab405"
+        android:title="Lab 405"
+        app:showAsAction="never"></item>
+</menu>
